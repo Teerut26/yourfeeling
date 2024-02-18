@@ -1,3 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+    font-family: "Noto Sans Thai", sans-serif;
+    background: #EEA5A6;
+}
+
+body {
+    min-height: 100vh;
+    
+    /* background: linear-gradient(
+        180deg,
+        #EEA5A6 0%,
+        #8E7AB5 100%
+    ); */
+    @apply text-stone-100 text-2xl;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }
